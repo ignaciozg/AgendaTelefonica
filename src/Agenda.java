@@ -1,4 +1,4 @@
-package Agenda;
+
 
 import java.util.HashMap;
 
@@ -10,7 +10,7 @@ public class Agenda {
 
     // Constructor 1: Indica el tamaño de la agenda
     public Agenda() {
-        this.contactos = new HashMap<>();
+        this.contactos = new HashMap<>(); 
         this.capacidadMaxima = 10; 
     }
 
